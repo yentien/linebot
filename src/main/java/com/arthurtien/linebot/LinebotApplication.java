@@ -6,8 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LinebotApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
+
 		SpringApplication.run(LinebotApplication.class, args);
-	}
+
+    }
 
 }
