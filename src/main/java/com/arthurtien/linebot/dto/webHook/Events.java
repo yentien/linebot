@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Events {
     private String type;
-    private Message message;
+    private WebHookMessage message;
     private String webhookEventId;
     private DeliveryContext deliveryContext;
     private long timestamp;
